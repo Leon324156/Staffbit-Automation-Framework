@@ -1,0 +1,659 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "as-a-user-i-expect-to-be-able-to-contact-the-company;as-a-user,-i-expect-that-if-i-enter-the-wrong-email-address-and-press-the-send-button,-the-message-will-not-be-sent",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "As a user, I expect that if I enter the wrong email address and press the send button, the message will not be sent",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1918156999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 43,
+            "name": "I am on the \"contact\" page",
+            "match": {
+              "location": "src\\step-definitions\\navigation.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1826247099.0000002
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "I scroll to the \"Contact-form\" input",
+            "match": {
+              "location": "src\\step-definitions\\scroll.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1599589999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "I fill in the \"name\" input with \"Jacek\"",
+            "match": {
+              "location": "src\\step-definitions\\form.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 371326200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "I fill in the \"email\" input with \"Kloda\"",
+            "match": {
+              "location": "src\\step-definitions\\form.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 146954900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "I fill in the \"phone\" input with \"333 222 111\"",
+            "match": {
+              "location": "src\\step-definitions\\form.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 176950799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "I fill in the \"message\" input with \"test message\"",
+            "match": {
+              "location": "src\\step-definitions\\form.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 507506099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "I click the \"Sendbutton\" button",
+            "match": {
+              "location": "src\\step-definitions\\click.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 177463700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "the \"success-status-bar\" should not be displayed",
+            "match": {
+              "location": "src\\step-definitions\\assertions\\verify-element-visibility.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65937199.00000001
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "I sleep \"5\" seconds",
+            "match": {
+              "location": "src\\step-definitions\\general.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5010872900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 51432399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 39
+          },
+          {
+            "name": "@regression",
+            "line": 40
+          },
+          {
+            "name": "@dev",
+            "line": 41
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a-user-i-expect-to-be-able-to-contact-the-company;as-a-user-i-expect-that-if-i-do-not-enter-a-telefon-number-and-press-the-send-button,-the-message-will-not-be-sent",
+        "keyword": "Scenario",
+        "line": 66,
+        "name": "As a user I expect that if I do not enter a telefon number and press the send button, the message will not be sent",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1639047499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 67,
+            "name": "I am on the \"contact\" page",
+            "match": {
+              "location": "src\\step-definitions\\navigation.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2091836899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 68,
+            "name": "I scroll to the \"Contact-form\" input",
+            "match": {
+              "location": "src\\step-definitions\\scroll.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1605404299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "I fill in the \"name\" input with \"Jacek\"",
+            "match": {
+              "location": "src\\step-definitions\\form.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 380046000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "I fill in the \"email\" input with random \"email\"",
+            "match": {
+              "location": "src\\step-definitions\\form.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 217353299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 71,
+            "name": "I fill in the \"message\" input with \"test message\"",
+            "match": {
+              "location": "src\\step-definitions\\form.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 269433700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 72,
+            "name": "I click the \"Sendbutton\" button",
+            "match": {
+              "location": "src\\step-definitions\\click.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 283869899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 73,
+            "name": "the \"success-status-bar\" should not be displayed",
+            "match": {
+              "location": "src\\step-definitions\\assertions\\verify-element-visibility.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50265300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 89657500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dev",
+            "line": 65
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-user-i-expect-to-be-able-to-contact-the-company",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "As a user I expect to be able to contact the company",
+    "tags": [],
+    "uri": "src\\features\\Contact.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "as-a-user-i-expect-to-be-able-to-move-smoothly-through-the-case-study-section;as-a-user-i-can-smoothly-switch-from-the-services-page-to-another-page",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "As a user I can smoothly switch from the Services page to another page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1495781599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I am on the \"Services\" page",
+            "match": {
+              "location": "src\\step-definitions\\navigation.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2150859899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click the 1st \"Servicesproject\" button",
+            "match": {
+              "location": "src\\step-definitions\\click.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 602280300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I am directed to the \"Functional Testing\" page",
+            "match": {
+              "location": "src\\step-definitions\\navigation.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34893199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 75262299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dev",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a-user-i-expect-to-be-able-to-move-smoothly-through-the-case-study-section;as-a-user-i-can-smoothly-switch-from-the-services-page-to-another-page",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "As a user I can smoothly switch from the Services page to another page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1491995699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I am on the \"Services\" page",
+            "match": {
+              "location": "src\\step-definitions\\navigation.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1986688699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click the 2nd \"Servicesproject\" button",
+            "match": {
+              "location": "src\\step-definitions\\click.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 603804500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I am directed to the \"Application Testing\" page",
+            "match": {
+              "location": "src\\step-definitions\\navigation.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7125499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 63539199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dev",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a-user-i-expect-to-be-able-to-move-smoothly-through-the-case-study-section;as-a-user-i-can-smoothly-switch-from-the-services-page-to-another-page",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "As a user I can smoothly switch from the Services page to another page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1851034099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I am on the \"Services\" page",
+            "match": {
+              "location": "src\\step-definitions\\navigation.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3205395900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click the 3rd \"Servicesproject\" button",
+            "match": {
+              "location": "src\\step-definitions\\click.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 998470600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I am directed to the \"Compability Testing\" page",
+            "match": {
+              "location": "src\\step-definitions\\navigation.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88519099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 299679100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dev",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a-user-i-expect-to-be-able-to-move-smoothly-through-the-case-study-section;as-a-user-i-can-smoothly-switch-from-the-services-page-to-another-page",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "As a user I can smoothly switch from the Services page to another page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 994890300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I am on the \"Services\" page",
+            "match": {
+              "location": "src\\step-definitions\\navigation.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1614742799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click the 4th \"Servicesproject\" button",
+            "match": {
+              "location": "src\\step-definitions\\click.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 502253699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I am directed to the \"Performance Testing\" page",
+            "match": {
+              "location": "src\\step-definitions\\navigation.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29542099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 68764899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dev",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "as-a-user-i-expect-to-be-able-to-move-smoothly-through-the-case-study-section;as-a-user-i-can-smoothly-switch-from-the-services-page-to-another-page",
+        "keyword": "Scenario Outline",
+        "line": 11,
+        "name": "As a user I can smoothly switch from the Services page to another page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1101199100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I am on the \"Services\" page",
+            "match": {
+              "location": "src\\step-definitions\\navigation.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1552758699.9999998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I click the 5th \"Servicesproject\" button",
+            "match": {
+              "location": "src\\step-definitions\\click.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 619687500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I am directed to the \"Automation Testing\" page",
+            "match": {
+              "location": "src\\step-definitions\\navigation.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6199100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 56585999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dev",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-user-i-expect-to-be-able-to-move-smoothly-through-the-case-study-section",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "As a user I expect to be able to move smoothly through the case study section",
+    "tags": [],
+    "uri": "src\\features\\Services.feature"
+  }
+]

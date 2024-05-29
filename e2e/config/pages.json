@@ -1,0 +1,55 @@
+{
+  "home" : {
+    "route" : "/",
+    "regex" : "^/$"
+  },
+  "contact" : {
+    "route" : "/contact/",
+    "regex" :"/contact/"
+  },
+  "case study" : {
+    "route" : "case-study/",
+    "regex" : "case-study/"
+  },
+  "Quality-quickstard-quest" : {
+    "route" : "/quality-quickstart-quest/",
+    "regex" : "/quality-quickstart-quest/"
+  },
+  "Scale-Secure-Symphony" : {
+    "route" : "/scale-secure-symphony/",
+    "regex" : "/scale-secure-symphony/"
+  },
+  "Total-Tech-Triumph-Track" : {
+    "route" : "/total-tech-triumph-track/",
+    "regex" : "/total-tech-triumph-track/"
+  },
+  "Cto-Pub" : {
+    "route" : "/ctopub/",
+    "regex" : "/ctopub/"
+  },
+  "Services" : {
+    "route" : "qa-services/",
+    "regex" : "qa-services/"
+  },
+  "Functional Testing" : {
+    "route" : "Functional-testing/",
+    "regex" : "Functional-testing/"
+  },
+  "Application Testing" : {
+    "route" : "Application-Testing/",
+    "regex" : "Application-Testing/"
+  },
+  "Compability Testing" : {
+    "route" : "Compatibility-Testing/",
+    "regex" : "Compatibility-Testing/"
+  },
+  "Performance Testing" : {
+    "route" : "Performance-Testing/",
+    "regex" : "Performance-Testing/"
+  },
+  "Automation Testing" : {
+    "route" : "Automation-Testing/",
+    "regex" : "Automation-Testing/"
+  }
+
+}

@@ -1,0 +1,33 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "transpile": "rimraf dist && babel --extensions .ts --out-dir dist src",
+    "cucumber-compile": "yarn transpile && cucumber-js",
+    "cucumber": "yarn cucumber-compile",
+    "precucumber": "rimraf reports && mkdir reports && echo {} > reports/report.json",
+    "postcucumber": "ts-node ./src/reporter/cucumber-report.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@cucumber/cucumber": "^8.0.0",
+    "@faker-js/faker": "^6.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "chromedriver": "^100.0.0",
+    "cucumber-html-reporter": "^5.5.0",
+    "dotenv": "^16.0.0",
+    "eslint": "^8.14.0",
+    "geckodriver": "^3.0.1",
+    "selenium-webdriver": "^4.1.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
